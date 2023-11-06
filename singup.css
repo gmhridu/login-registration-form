@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #081b29;
+}
+
+.wrapper {
+  position: relative;
+  width: 750px;
+  height: 450px;
+  background: transparent;
+  border: 2px solid #0ef;
+}
+
+.form_box {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  display: contents;
+  justify-content: center;
+  
+}
+
+.form_box.singup {
+  left: 0;
+  padding: 0 60px 0 40px;
+  margin-bottom: 10px 0;
+  
+}
+
+.form_box h2 {
+  font-size: 32px;
+  color: #fff;
+  text-align: center;
+}
+
+.form_box .input_box {
+   position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 25px 0;
+}
+
+.input_box input {
+  width: 100%;
+    height: 100%;
+    background: transparent;
+    padding-right: 18px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #fff;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.input_box label {
+    position: relative;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+  }
+
+  .input_box input[type=checkbox] {
+    position: absolute;
+    width:50%;
+    padding-right: 10px;
+    margin: 0 auto;
+  }
+
+
+
+.more {
+  padding-top: 80px;
+  margin: 20px auto;
+    justify-content: space-between;
+    color: #fff;
+}
+    
+.check_box {
+  padding: 10px 0;
+  margin: 0 auto;
+  color: #fff;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#submit-btn {
+  margin: 10px auto;
+  justify-content: center;
+  bottom: 5px;
+}
