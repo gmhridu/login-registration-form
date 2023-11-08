@@ -177,11 +177,11 @@ body {
 
 .wrapper .bg-animate {
   position: absolute;
-  top: -4px;
+  top: -2px;
   right: 0;
-  width: 850px;
-  height: 600px;
-  background: linear-gradient(450deg, #081b29, #0ef);
+  width: 1020px;
+  height: 650px;
+  background: linear-gradient(350deg, #081b29, #0ef);
   border-bottom: 3px solid #0ef;
   /* transform: rotate(10deg) skewY(40deg); */
   transform: rotate(0) skewY(0);
@@ -191,11 +191,12 @@ body {
 .wrapper .bg-animate2 {
   position: absolute;
   top: 100%;
-  left: 250px;
-  width: 1140px;
+  left: 200px;
+  width: 1020px;
   height: 650px;
   background: #081b29;
-  border-top: 4px solid #0ef;
+  border-top: 2px solid #0ef;
+  border-bottom: 1px solid #0ef;
   transform: rotate(-11deg) skewY(-41deg);
   transform-origin: bottom left;
 }
@@ -232,7 +233,7 @@ input .check-box {
   color: #0ef;
   text-decoration: none;
   font-weight: 600;
-  }
+}
 
 .lorgeg_link p a:hover {
   text-decoration: underline;
