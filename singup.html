@@ -1,56 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sing Up</title>
-  <link rel="stylesheet" href="singup.css">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Form</title>
+  <link rel="stylesheet" href="singup.css" />
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
   <div class="wrapper">
-    <div class="form_box singup">
-      <h2>Singup</h2>
+    <span class="bg-animate"></span>
+    <span class="bg-animate2"></span>
+    <div class="form_box register">
+      <h2>Sign Up</h2>
       <form action="#">
         <div class="input_box">
-          <input type="text" placeholder="Enter your mail" required>
-          <label>Email</label>
-          <i class='bx bxs-envelope'></i>
+          <input type="text" placeholder="Enter username" required />
+          <label>Username</label>
+          <i class='bx bxs-user'></i>
+        </div>
         <div class="input_box">
-          <input type="password" placeholder="password"required>
+          <input type="password" placeholder="Enter password" required />
           <label>Password</label>
           <i class='bx bxs-lock-alt'></i>
         <div class="input_box">
-          <input type="password" placeholder="repeat password" required>
-          <label>Repeat Password</label>
+          <input type="password" placeholder="Confirm password" required />
+          <label>Confirm Password</label>
           <i class='bx bxs-lock-alt'></i>
-          <section class="mb-5">
-            <p class="more">Get more from US:</p>
-            <div class="check_box">
-              <input type="checkbox">
-              <label for="checkbox">Security & privacy news and updates</label>
-            <div class="check_box">
-              <input type="checkbox">
-              <label for="checkbox">Early access to test new products</label>
-            <div class="check_box">
-              <input type="checkbox">
-              <label for="checkbox">Help keep the internet healthy</label>
-              <button id="submit-btn" type="submit">Create account</button>
-              <div class="agree">
-                <input type="checkbox">
-                <label for="agreement">By proceeding, you agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Notice.</a></label>
-              </div>
-
+          <div class="input-name">
+            <div class="input-box-lable">
+              <input type="checkbox" class="check-box">
+              <span>By proceeding, you agree to the Terms of Service</span>
             </div>
 
-          </section>
+        
+            <button type="submit" class="btn">Sign Up</button>
+
+            <div class="lorgeg_link">
+              <p>Already have an account?<a href="index.html" class="register_account">Login</a></p>
+            </div>
+
+          
             
-            
+          
         </div>
       </form>
     </div>
+    <div class="info-text login">
+      <h2>Welcome Back!</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+    </div>
   </div>
-  
 </body>
+
 </html>
